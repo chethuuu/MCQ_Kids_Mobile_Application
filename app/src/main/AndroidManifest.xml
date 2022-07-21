@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.practise10">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MCQ Mobile Application"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Practise10">
+        <activity
+            android:name=".Insert_Multiexam"
+            android:exported="true" />
+        <activity
+            android:name=".Exam_d"
+            android:exported="true" />
+        <activity
+            android:name=".Exam_I"
+            android:exported="true" />
+        <activity
+            android:name=".Multi_3"
+            android:exported="true" />
+        <activity
+            android:name=".Multi_2"
+            android:exported="true" />
+        <activity
+            android:name=".Multi_1"
+            android:exported="true" />
+        <activity
+            android:name=".MultiLessons"
+            android:exported="true" />
+        <activity
+            android:name=".MultiLevel"
+            android:exported="true" />
+        <activity
+            android:name=".MultiMenu"
+            android:exported="true" />
+        <activity android:name=".QuizResults" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

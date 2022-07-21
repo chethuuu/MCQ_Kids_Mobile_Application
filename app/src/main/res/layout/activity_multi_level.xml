@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lmap"
+    tools:context=".MultiLevel">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1F6888">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="-20dp"
+            android:layout_marginTop="-0dp"
+            android:layout_marginEnd="80dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img16" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/img15"/>
+
+    </RelativeLayout>
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mlvl1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="playIT"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/multi_menu_btn"
+        android:minHeight="20dp"
+        android:padding="10dp"
+        android:text="Level 01"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mlvl2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="0dp"
+        android:minHeight="20dp"
+        android:padding="10dp"
+        android:text="Level 02"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/multi_menu_btn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mlvl3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:minHeight="20dp"
+        android:padding="10dp"
+        android:text="Level 03"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/multi_menu_btn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mlvl4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/multi_menu_btn"
+        android:minHeight="10dp"
+        android:padding="10dp"
+        android:text="Exam"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="670dp"
+            android:text="Choose Level"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:background="@drawable/round_bg2"
+            android:textStyle="bold" />
+
+</RelativeLayout>

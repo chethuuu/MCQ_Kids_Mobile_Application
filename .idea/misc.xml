@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/invisible_btn.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/lvl_box.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/menu_color.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/multi_menu_btn.xml" value="0.2546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/quiz_btn.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/round_bg2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/round_bly.xml" value="0.2546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/round_board.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/round_br.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/round_bw.xml" value="0.2546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/round_bw_s.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/drawable/round_bws.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_exam_d.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_exam_i.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_insert_exam_multi.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_insert_multiexam.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_lvl01_lesson.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_lvl02_lesson.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_lvl03_lesson.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_multi1.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_multi2.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_multi3.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_multi_lessons.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_multi_level.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_multi_menu.xml" value="0.22178988326848248" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_quiz.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_quiz_results.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/activity_quiz_results2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Practise10/app/src/main/res/layout/retrivem.xml" value="0.23854166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

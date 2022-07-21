@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img10"
+    tools:context=".MultiMenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1F6888">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="-0dp"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="-20dp"
+            android:layout_marginEnd="80dp"
+            android:src="@drawable/img16"/>
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/img15"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/multi_menu"
+        android:layout_width="380dp"
+        android:layout_height="600dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-400dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img9" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mquiz"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/invisible_btn"
+        android:minHeight="20dp"
+        android:padding="10dp"
+        android:text="Lesson"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mlesson"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:minHeight="20dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Quiz"
+        android:background="@drawable/invisible_btn"/>
+
+
+</RelativeLayout>
